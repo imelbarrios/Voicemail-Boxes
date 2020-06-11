@@ -1,5 +1,28 @@
+
+body{
+  margin: 10px;
+  display: block;
+  background-color: #1F215E;
+}
+
+h1 .MuiTypography-h1 {
+  font-size: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+}
+
+h1,h2,h3 {
+  color:#FFFFFF;
+}
 .App {
   text-align: center;
+}
+
+.footer {
+  padding-top: 10px;
+ 
 }
 
 .App-logo {
