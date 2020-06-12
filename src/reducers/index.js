@@ -16,11 +16,7 @@ function selectedSubreddit(state = 'reactjs', action) {
 }
 
 function posts(
-  state = {
-    isFetching: false,
-    didInvalidate: false,
-    items: []
-  },
+  state =  [],
   action
 ) {
   switch (action.type) {
