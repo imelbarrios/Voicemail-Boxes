@@ -26,8 +26,9 @@ function App() {
         <Typography variant="h3" noWrap >
           Voicemail box's messages
           </Typography>
+          {/*Table Voicemail*/}
           <Messages/>
-        <Box pt={4} class="footer">
+        <Box pt={4} className="footer">
           <Copyright />
         </Box>
       </Container>
